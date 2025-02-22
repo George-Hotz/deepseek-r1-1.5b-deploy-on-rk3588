@@ -3,9 +3,9 @@
 #    Author： 樂
 #    github:  https://github.com/George-Hotz
 
-GCC_COMPILER_PATH=/usr/bin/
-C_COMPILER=${GCC_COMPILER_PATH}gcc
-CXX_COMPILER=${GCC_COMPILER_PATH}g++
+GCC_COMPILER_PATH=/usr/bin
+C_COMPILER=${GCC_COMPILER_PATH}/gcc
+CXX_COMPILER=${GCC_COMPILER_PATH}/g++
 
 TARGET_ARCH=aarch64
 TARGET_PLATFORM=linux
